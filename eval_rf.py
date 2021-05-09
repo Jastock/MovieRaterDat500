@@ -1,10 +1,8 @@
-from mrjob.job import MRJob
-import sklearn
-from sklearn import tree
-import pandas as pd
-import pickle
 import jsonpickle
-import numpy as np
+import pandas as pd
+import sklearn
+from mrjob.job import MRJob
+
 
 class RF_eval(MRJob):
     test_set = '/home/janf/PycharmProjects/MovieRater/src/test_set.csv'

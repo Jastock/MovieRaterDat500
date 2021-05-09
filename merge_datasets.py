@@ -1,6 +1,6 @@
 import pandas as pd
 
-RATINGS = '/home/janf/PycharmProjects/MovieRater/data/ratingsThe .csv'
+RATINGS = '/home/janf/PycharmProjects/MovieRater/data/ratings.csv'
 MOVIES = '/home/janf/PycharmProjects/MovieRater/data/movies_metadata.csv'
 
 ratings = pd.read_csv(RATINGS)

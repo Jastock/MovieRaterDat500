@@ -1,9 +1,9 @@
-from mrjob.job import MRJob
-import sklearn
-from sklearn import tree
-import pandas as pd
-import pickle
 import jsonpickle
+import pandas as pd
+import sklearn
+from mrjob.job import MRJob
+from sklearn import tree
+
 
 class RF(MRJob):
     train_set = '/home/janf/PycharmProjects/MovieRater/src/train_set.csv'
